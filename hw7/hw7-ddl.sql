@@ -34,11 +34,6 @@ SET FOREIGN_KEY_CHECKS=1;
 # time committment offers some sense of how much time was required (or will be required) to gain the skill.
 # You can assign the skill descriptions.  Please be creative!
 
-'''
-    To run, highlight & pick the "Run Selected Q" or Ctrl+E+Ctrl+E
-    We can drop tables in any place, not only at the start 
-'''
-
 CREATE TABLE skills (
     id INT NOT NULL,
     name varchar(255) NOT NULL,
